@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
       STEP1: Build PaycorpClientConfig object
       ------------------------------------------------------------------------------ */
     $clientConfig = new ClientConfig();
-    $clientConfig->setServiceEndpoint("https://test-combank.paycorp.com.au/rest/service/proxy/");
+    $clientConfig->setServiceEndpoint("https://sampath.paycorp.com.au/rest/service/proxy");
     $clientConfig->setAuthToken($authToken);
     $clientConfig->setHmacSecret($hmac);
 
